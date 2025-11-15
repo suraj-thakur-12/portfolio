@@ -1,0 +1,16 @@
+.home{
+    margin-top: 6%;
+   
+}
+.home h1{
+    text-align: left;
+    justify-content: center;
+    margin-left: 6%;
+    font-size: 25px;
+    font-style: italic;
+    color: #fff;
+    /* transition: color 0.3s ease, transform 0.2s ease; */
+}
+/* .home h1:hover{
+    color: chocolate;
+} */

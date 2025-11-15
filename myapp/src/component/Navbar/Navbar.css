@@ -1,0 +1,76 @@
+/* Navbar.css */
+
+.navbar {
+  width: 100%;
+  /* background-color: #0d1117; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 60px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+
+/* Logo section (Left side) */
+.logo {
+  color: peru;
+  font-size: 22px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+/* Navigation links (Right side) */
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 35px;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+  transition: color 0.3s ease, transform 0.2s ease;
+}
+
+.nav-links li a:hover {
+  color: chocolate;
+  transform: scale(1.05);
+}
+
+@media (max-width: 768px) {
+
+  .menu-icon {
+    display: block;
+  }
+
+  .nav-links {
+    display: none;
+  }
+
+  .nav-links-mobile {
+    position: absolute;
+    top: 70px;
+    right: 0;
+    background: #222;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0;
+    gap: 20px;
+    text-align: center;
+    list-style: none;
+  }
+
+  .nav-links-mobile li a {
+    font-size: 20px;
+  }
+}
