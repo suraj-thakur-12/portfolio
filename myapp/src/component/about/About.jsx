@@ -16,7 +16,7 @@ const About = () => {
             their
             careers.</p>
         <img src={about} alt="logo" />
-    </div>
+    </div>      
   )
 }
 

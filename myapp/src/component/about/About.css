@@ -50,7 +50,8 @@
   }
 
   .about p {
-    font-size: 16px;
+    max-width: 50%;
+    font-size: 20px;
   }
 
   .about img {
@@ -69,7 +70,7 @@
   }
 
   .about p {
-    font-size: 15px;
+    font-size: 35px;
   }
 
   .about img {
