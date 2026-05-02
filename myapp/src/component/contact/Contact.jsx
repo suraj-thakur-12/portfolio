@@ -31,15 +31,20 @@ const Contact = () => {
         <h2 className='h2'>Contact Us</h2>
         <div className='scd'>
           <form onSubmit={onSubmit}>
-            <label for="name">Name</label>
-            <input type="text" id='name' placeholder='Enter your name' /><br />
-            <label for="last">Last Name</label>
-            <input type="text" name="last" id="last" placeholder='Enter your last name' /><br />
-            <label for="email">Email</label>
-            <input type="email" name='email' id='email' placeholder='Enter your email' /><br />
-            <textarea name='message' id='message' rows={4} placeholder='type...'></textarea>
-            <button className='btn' type='submit'>submit</button>
-          </form>
+  <label htmlFor="name">Name</label>
+  <input type="text" name="name" id="name" placeholder="Enter your name" />
+
+  <label htmlFor="last">Last Name</label>
+  <input type="text" name="last" id="last" placeholder="Enter your last name" />
+
+  <label htmlFor="email">Email</label>
+  <input type="email" name="email" id="email" placeholder="Enter your email" />
+
+  <label htmlFor="message">Message</label>
+  <textarea name="message" id="message" rows={4} placeholder="Type..."></textarea>
+
+  <button className="btn" type="submit">Submit</button>
+</form>
         </div>
           <span>{result}</span>
     </div>
